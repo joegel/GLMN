@@ -30,6 +30,10 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-weight: 400;
+}
+
 body {
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica , Arial, sans-serif;
@@ -100,6 +104,10 @@ nav > ul {
 
 .project-box {
     margin-bottom: 2ch;
+}
+
+.project-link:hover {
+    text-decoration: none;
 }
 
 .project-link > img {
@@ -186,7 +194,89 @@ h1 {
     justify-content: space-between;
     font-size: 0.875em;
 }
-/* carousel */
+/* about page */
+
+.about-paragraph a {
+    text-decoration: underline dotted .1px #6f6f6f;
+    position: relative;
+    padding-left: 1.3em;
+}
+
+.about-paragraph a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.ylv-link::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.1em;
+    width: 1.1em;
+    background: url("../images/ylv-pseudo.svg");
+    background-size: 1.1em 1.1em;
+}
+
+.hm-link::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.1em;
+    width: 1.1em;
+    background: url("../images/hm-pseudo.svg");
+    background-size: 1.2em 1.2em;
+}
+
+
+.atreo-link::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.1em;
+    width: 1.1em;
+    background: url("../images/atreo-pseudo.svg");
+    background-size: 1.2em 1.2em;
+}
+
+.bio {
+    margin-block: 2em;
+}
+
+details > p {
+    margin-left: 2.3em;
+    margin-block: .5em;
+}
+
+details > ul {
+    margin-left: 3.8em;
+    font-size: .875em;
+    line-height: 1.3;
+    
+}
+
+details > ul > li {
+    margin-bottom: .5em;   
+}
+
+summary > strong {
+    position: relative;
+    padding-left: 1.3em;
+}
+
 
 
 
